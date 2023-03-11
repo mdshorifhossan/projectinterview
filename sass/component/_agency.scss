@@ -1,0 +1,30 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+#agency {
+    padding: 135px 76px 49px;
+    background: url(../images/agency-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2 {
+        @include agency-h3;
+    }
+
+    .agency-item {
+        background: $color-f1e8ff;
+        height: 440px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .agency-btn {
+        text-align: center;
+        padding: 64px 0px 49px;
+
+        a {
+            @include agency-btn-a;
+        }
+    }
+
+}

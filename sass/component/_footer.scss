@@ -1,0 +1,233 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+
+@font-face {
+    font-family: 'larke';
+    src: url(../fonts/larke-sans-bold.ttf);
+}
+
+
+#footer {
+    background: url(../images/footer-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 105px 0px 45px;
+
+    .logo {
+        h2 {
+            font-family: "larke";
+            font-size: 55px;
+            font-weight: 700;
+            color: $color-8f49f9;
+            line-height: 36px;
+        }
+
+        p {
+            padding-top: 55px;
+            font-family: $font-niramit;
+            font-size: 18px;
+            font-weight: 700;
+            color: $color-39436f;
+
+            span {
+                color: $color-ff846e;
+                font-family: $font-poppins;
+                font-weight: 400;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            padding: 32px 0px 38px;
+
+            li {
+                font-family: $font-niramit;
+                font-size: 16px;
+                font-weight: 400;
+                color: $color-39436f;
+                text-transform: uppercase;
+            }
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            span {
+                width: 51px;
+                height: 51px;
+                background: $color-fffff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all linear 0.3s;
+
+                &:first-child {
+                    background: $color-8f49f9;
+
+                    svg {
+                        color: $color-fffff;
+                    }
+                }
+
+                svg {
+                    font-size: 18px;
+                    color: $color-bd91ff;
+                    transition: all linear 0.3s;
+                }
+
+                &:hover {
+                    background: $color-8f49f9;
+
+                    svg {
+                        color: $color-fffff;
+                    }
+                }
+            }
+        }
+    }
+
+    .information {
+        padding-top: 4px;
+
+        h3 {
+            font-family: $font-niramit;
+            font-size: 20px;
+            color: $color-282331;
+            font-weight: 700;
+            padding-bottom: 65px;
+        }
+
+        p {
+            font-family: $font-niramit;
+            font-weight: 400;
+            font-size: 16px;
+            color: $color-39436f;
+            line-height: 38px;
+            padding-bottom: 30px;
+        }
+
+        a {
+            font-family: $font-niramit;
+            font-weight: 400;
+            font-size: 16px;
+            color: $color-39436f;
+            line-height: 38px;
+            padding-bottom: 25px;
+
+            &:last-child {
+                font-size: 20px;
+                color: $color-8f49f9;
+            }
+        }
+    }
+
+    .about {
+        h3 {
+            font-family: $font-niramit;
+            font-size: 20px;
+            color: $color-282331;
+            font-weight: 700;
+            padding-bottom: 65px;
+        }
+
+        ul {
+            li {
+                font-family: $font-niramit;
+                font-weight: 400;
+                font-size: 16px;
+                color: $color-39436f;
+                padding-bottom: 27px;
+
+                &:last-child {
+                    padding-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    .stay {
+        h3 {
+            font-family: $font-niramit;
+            font-size: 20px;
+            color: $color-282331;
+            font-weight: 700;
+            padding-bottom: 65px;
+        }
+
+        p {
+            font-family: $font-niramit;
+            font-weight: 400;
+            font-size: 16px;
+            color: $color-39436f;
+            line-height: 28px;
+            padding-bottom: 30px;
+        }
+
+        .email {
+            position: relative;
+            background: $color-fffff;
+            box-shadow: 0px 0px 56px 0px $color-d8-35;
+
+            p {
+                padding: 23px 23px 20px 19px;
+                font-family: $font-niramit;
+                font-weight: 400;
+                font-weight: 16px;
+                color: $color-9a9a9a;
+
+                span {
+                    padding-left: 90px;
+
+                    svg {
+                        color: $color-c7a2fe;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .store {
+        padding-top: 72px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        a {
+            padding: 21px 41px 20px 25px;
+            border-radius: 10px;
+            background: $color-fffff;
+            box-shadow: 0px 20px 75px 0px $color-b7-35;
+            color: $color-8f49f9;
+            font-family: $font-niramit;
+            font-weight: 400;
+            font-size: 20px;
+            text-transform: capitalize;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                padding-right: 21px;
+                font-size: 33px;
+            }
+        }
+    }
+
+    .copyright {
+        padding-top: 56px;
+        font-family: $font-niramit;
+        font-weight: 400;
+        font-weight: 18px;
+        color: $color-282331;
+        text-align: center;
+    }
+}

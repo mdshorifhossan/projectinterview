@@ -1,0 +1,273 @@
+@mixin common-btn {
+    font-size: 18px;
+    font-weight: 700;
+    color: $color-8f58fa;
+    line-height: 37px;
+    text-transform: uppercase;
+    padding: 23px 38px;
+    background: $color-fffff;
+}
+
+@mixin all-com-btn {
+    font-family: $font-niramit;
+    font-weight: 700;
+    line-height: 30px;
+    color: $color-8f49f9;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    border: 1px solid $color-f2e3ff;
+}
+
+@mixin agency {
+    border-radius: 50%;
+    background: linear-gradient(140deg, #a97afa, #d1b7ff);
+    height: 78px;
+    width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 27px 18px 0px $color-35-cb;
+}
+
+@mixin agency-h3 {
+    font-size: 52px;
+    font-family: $font-niramit;
+    color: $color-382c4d;
+    line-height: 62px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+@mixin agency-btn-a {
+    font-family: $font-niramit;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 14px 47px;
+    font-size: 20px;
+    background: $color-8f49f9;
+    color: $color-fffff;
+    text-transform: capitalize;
+    border: 1px solid $color-f2e3ff;
+}
+
+@mixin archive-circle {
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    box-shadow: 0px 22px 30px 0px $color-35;
+    text-align: center;
+}
+
+@mixin archive-circle-text {
+    font-family: $font-niramit;
+    font-weight: 700;
+    font-size: 21px;
+    color: $color-282331;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+@mixin services-item {
+    padding: 30px 20px 75px 48px;
+    width: 370px;
+    box-shadow: 0px 0px 19px 0px $color-35-2;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+@mixin services-after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 160px;
+    z-index: -1;
+}
+
+@mixin services-icon {
+    margin: 0px 15px 60px;
+    background: $color-9de78a;
+    padding: 15px 12px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+
+@mixin services-icon-after {
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    z-index: -1;
+}
+
+@mixin services-item-h3 {
+    font-family: $font-niramit;
+    font-weight: 700;
+    font-size: 25px;
+    color: $color-282331;
+    text-transform: capitalize;
+    padding-bottom: 38px;
+}
+
+@mixin services-item-p {
+    font-family: $font-niramit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $color-282331;
+    padding-bottom: 50px;
+}
+
+@mixin services-item-li {
+    font-family: $font-niramit;
+    font-size: 18px;
+    line-height: 35px;
+    color: $color-282331;
+}
+
+@mixin services-item-span {
+    background: $color-8f49f9;
+    color: $color-fffff;
+    border-radius: 50%;
+    padding: 0px 5px;
+    font-size: 18px;
+    font-family: $font-poppins;
+    margin-right: 17px;
+}
+
+@mixin exp-item {
+    padding: 30px 22px 75px 48px;
+    width: 370px;
+    box-shadow: 0px 0px 19px 0px $color-35-2;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+@mixin exp-item-after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 160px;
+    z-index: -1;
+}
+
+@mixin exp-icon {
+    margin: 0px 15px 60px;
+    background: $color-fffff;
+    padding: 20px 12px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+@mixin exp-icon-after {
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    z-index: -1;
+}
+
+@mixin exp-icon-h3 {
+    font-family: $font-niramit;
+    font-weight: 700;
+    font-size: 25px;
+    color: $color-282331;
+    text-transform: capitalize;
+    padding-bottom: 38px;
+}
+
+@mixin exp-icon-p {
+    font-family: $font-niramit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $color-282331;
+}
+
+@mixin exp-team {
+    border-radius: 67% 33% 35% 65% / 34% 51% 49% 66%;
+    height: 315px;
+    width: 320px;
+}
+
+@mixin exp-team-h3 {
+    padding-top: 53px;
+    font-family: $font-niramit;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: $color-282331;
+}
+
+@mixin exp-team-span {
+    display: block;
+    font-weight: 400;
+    color: $color-8f49f9;
+    text-transform: none;
+    padding-top: 15px;
+}
+
+@mixin blog-h2 {
+    font-family: $font-niramit;
+    font-weight: 400;
+    font-size: 53px;
+    color: $color-282331;
+    text-align: center;
+    padding-bottom: 69px;
+}
+
+@mixin blog-h3 {
+    font-family: $font-niramit;
+    font-weight: 700;
+    font-size: 32px;
+    color: $color-8f49f9;
+    padding: 18px 25px 12px 22px;
+    background: $color-fffff;
+    border-radius: 10px;
+    box-shadow: 0px 30px 50px 0px $color-ad-35;
+    display: inline-block;
+    margin: 253px 0px 0px 20px;
+}
+
+@mixin blog-h4 {
+    font-family: $font-niramit;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    padding-bottom: 32px;
+    transition: all linear 0.3s;
+    color: $color-282331;
+}
+
+@mixin blog-p {
+    font-family: $font-niramit;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-282331;
+    line-height: 28px;
+}

@@ -1,0 +1,147 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+#services {
+    padding-bottom: 185px;
+
+    .fantasy {
+        padding-bottom: 75px;
+
+        h2 {
+            font-family: $font-niramit;
+            font-weight: 400;
+            color: $color-282331;
+            font-size: 52px;
+            line-height: 62px;
+        }
+
+        a {
+            @include all-com-btn;
+            margin-left: 80px;
+        }
+    }
+
+    .row {
+        &:nth-child(2) {
+            justify-content: space-between;
+            gap: 30px;
+        }
+    }
+
+    .facility-item {
+        @include services-item;
+
+        &::after {
+            @include services-after;
+            background: url(../images/facility-shape.png);
+        }
+
+        .icon {
+            @include services-icon;
+            box-shadow: 0px 27px 18px 0px $color-35-faci;
+
+            &::after {
+                @include services-icon-after;
+                background: $color-efffeb;
+                box-shadow: 0px 18px 27px 0px $color-35-f9;
+            }
+        }
+
+        h3 {
+            @include services-item-h3;
+        }
+
+        p {
+            @include services-item-p;
+        }
+
+        ul {
+            li {
+                @include services-item-li;
+
+                span {
+                    @include services-item-span;
+                }
+            }
+        }
+    }
+
+    .pixel-item {
+        @include services-item;
+
+        &::after {
+            @include services-after;
+            background: url(../images/pixel-shape.png);
+        }
+
+        .icon {
+            @include services-icon;
+            background: $color-4ae4a8;
+            box-shadow: 0px 27px 18px 0px $color-35-pix;
+
+            &::after {
+                @include services-icon-after;
+                background: $color-b3fbde;
+                box-shadow: 0px 18px 27px 0px $color-35-cb;
+            }
+        }
+
+        h3 {
+            @include services-item-h3;
+        }
+
+        p {
+            @include services-item-p;
+        }
+
+        ul {
+            li {
+                @include services-item-li;
+
+                span {
+                    @include services-item-span;
+                }
+            }
+        }
+    }
+
+    .creative-item {
+        @include services-item;
+
+        &::after {
+            @include services-after;
+            background: url(../images/solution-shape.png);
+        }
+
+        .icon {
+            @include services-icon;
+            background: $color-ffaaf6;
+            box-shadow: 0px 27px 18px 0px $color-35-cre;
+
+            &::after {
+                @include services-icon-after;
+                background: $color-ffdffc;
+                box-shadow: 0px 18px 27px 0px $color-35-cb;
+            }
+        }
+
+        h3 {
+            @include services-item-h3;
+        }
+
+        p {
+            @include services-item-p;
+        }
+
+        ul {
+            li {
+                @include services-item-li;
+
+                span {
+                    @include services-item-span;
+                }
+            }
+        }
+    }
+
+}

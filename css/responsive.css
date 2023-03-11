@@ -1,0 +1,3325 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+
+/* ======================== Medium devices start =================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* -----Navbar part responsive start ------ */
+    .navbar {
+        padding: 30px 40px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 50px;
+    }
+
+    .navbar .navbar-toggler-icon svg {
+        color: #ffffff;
+        z-index: 99;
+        font-size: 25px;
+    }
+
+    .navbar .navbar-nav {
+        padding: 20px 40px;
+        text-align: right;
+        background: #8f49f9;
+        width: 40vh;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        transition: all linear 0.3s;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 19px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .navbar .nav-item-2 {
+        padding-left: 0px;
+        gap: 30px;
+        width: 60%;
+        margin: 20px 20px 0px;
+    }
+
+    .navbar .nav-item-2 img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .navbar .nav-item-2 p {
+        font-size: 15px;
+        height: 25px;
+        width: 25px;
+        top: -11px;
+        padding: 2px 0px;
+        left: 10px;
+        text-align: center;
+    }
+
+    .navbar .nav-item-2 span svg {
+        font-size: 25px;
+    }
+
+    /* -----Navbar part responsive end ------ */
+
+
+    /* ------Banner part responsive start ------ */
+
+
+    #banner {
+        padding: 100px 0px 100px;
+    }
+
+    #banner .banner-text {
+        padding: 100px 0px 0px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 34px;
+        line-height: 44px;
+        padding: 0px 20px 0px;
+    }
+
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 30px 30px 70px 20px;
+    }
+
+    #banner .banner-text a {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 18px 30px;
+        margin-left: 20px;
+    }
+
+    #banner .banner-img {
+        width: 135%;
+        height: 70%;
+        margin-top: 144px;
+    }
+
+    #banner .banner-img img {
+        width: 100%;
+        height: 94%;
+    }
+
+    /* ------Banner part responsive end ------ */
+
+
+    /* ------Archive part responsive start ------ */
+
+
+    #archive {
+        padding: 80px 0px 50px;
+    }
+
+    #archive .archive-item {
+        max-width: 84%;
+        max-height: 54%;
+        gap: 25px;
+        margin: 90px 0px 0px 20px;
+        background-size: contain;
+    }
+
+    #archive .archive-item::after {
+        left: -96px;
+        width: 163%;
+        height: 151%;
+        background-size: contain;
+        top: -73px;
+    }
+
+    #archive .archive-item .item-1 .customer {
+        max-height: 150px;
+        max-width: 150px;
+        padding: 40px 0px;
+    }
+
+    #archive .archive-item .item-1 .customer h2 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    #archive .archive-item .item-1 .customer span {
+        font-size: 38px;
+        line-height: 45px;
+        padding-left: 0px;
+    }
+
+    #archive .archive-item .item-1 .customer h3 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-left: -5px;
+    }
+
+    #archive .archive-item .item-1 .invest {
+        max-height: 150px;
+        max-width: 150px;
+        padding: 40px 0px;
+        margin-top: 20px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 span {
+        font-size: 45px;
+        line-height: 50px;
+        margin: 0 -4px;
+    }
+
+    #archive .archive-item .item-2 {
+        padding-top: 40px;
+    }
+
+    #archive .archive-item .item-2 .client {
+        height: 150px;
+        width: 150px;
+        padding: 40px 10px;
+    }
+
+    #archive .archive-item .item-2 .client h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #archive .archive-item .item-2 .client h2 p span {
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    #archive .archive-item .item-2 .client h2 p span:nth-child(2) {
+        font-size: 30px;
+        margin-left: -5px;
+    }
+
+
+    #archive .archive-item .item-2 .project {
+        max-height: 150px;
+        max-width: 150px;
+        padding: 40px 0px;
+        margin-top: 20px;
+    }
+
+    #archive .archive-item .item-2 .project h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #archive .archive-item .item-2 .project h2 p span {
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    #archive .archive-item .item-2 .project h2 p span:nth-child(2) {
+        font-size: 24px;
+        margin-left: -5px;
+    }
+
+
+    #archive .archive-info h4 {
+        padding-left: 0px;
+        font-size: 16px;
+        padding-bottom: 21px;
+    }
+
+    #archive .archive-info h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-right: 0px;
+        padding: 0px 0px 30px 0px;
+    }
+
+    #archive .archive-info p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 45px 40px 0px;
+    }
+
+    #archive .archive-info .collab {
+        padding: 0px;
+    }
+
+    #archive .archive-info .collab p {
+        line-height: 18px;
+        font-size: 14px;
+        padding: 0px 5px 40px;
+    }
+
+    #archive .archive-info a {
+        line-height: 24px;
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    /* ------Archive part responsive end ------ */
+
+
+    /* ------services part responsive start ------ */
+
+    #services {
+        padding: 0 20px 50px;
+    }
+
+    #services .fantasy h2 {
+        font-size: 35px;
+        line-height: 45px;
+        padding-bottom: 20px;
+        padding-right: 80px;
+    }
+
+    #services .fantasy a {
+        line-height: 24px;
+        font-size: 16px;
+        padding: 15px 30px;
+        margin: 20px 0px 0px -8px;
+    }
+
+    #services .row:nth-child(2) {
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+    }
+
+
+    #services .fantasy {
+        padding-bottom: 50px;
+    }
+
+    #services .facility-item {
+        padding: 15px 13px 45px 25px;
+        width: 39%;
+    }
+
+    #services .facility-item::after {
+        left: 30px;
+    }
+
+    #services .facility-item .icon {
+        padding: 10px 5px;
+        border-radius: 10px;
+        max-width: 45px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .facility-item .icon img {
+        width: 80%;
+    }
+
+    #services .facility-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 17px;
+        left: -15px;
+    }
+
+    #services .facility-item h3 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #services .facility-item p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #services .facility-item ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #services .facility-item ul li span {
+        padding: 0px 4px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    #services .pixel-item {
+        padding: 15px 13px 45px 25px;
+        width: 39%;
+    }
+
+    #services .pixel-item::after {
+        left: 30px;
+    }
+
+    #services .pixel-item .icon {
+        padding: 10px 5px;
+        border-radius: 10px;
+        max-width: 45px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .pixel-item .icon img {
+        width: 80%;
+    }
+
+    #services .pixel-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 17px;
+        left: -15px;
+    }
+
+    #services .pixel-item h3 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #services .pixel-item p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #services .pixel-item ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #services .pixel-item ul li span {
+        padding: 0px 4px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
+    #services .creative-item {
+        padding: 15px 13px 45px 25px;
+        width: 39%;
+    }
+
+    #services .creative-item::after {
+        left: 30px;
+    }
+
+    #services .creative-item .icon {
+        padding: 10px 5px;
+        border-radius: 10px;
+        max-width: 45px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .creative-item .icon img {
+        width: 80%;
+    }
+
+    #services .creative-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 17px;
+        left: -15px;
+    }
+
+    #services .creative-item h3 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #services .creative-item p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #services .creative-item ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #services .creative-item ul li span {
+        padding: 0px 4px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
+    /* ------services part responsive end ------ */
+
+    /* ------workplace part responsive start ------ */
+
+    #workplace {
+        padding: 0px 20px;
+    }
+
+    #workplace .workplace-item .icon span {
+        width: 65px;
+        height: 65px;
+    }
+
+    #workplace .workplace-item .icon span svg {
+        font-size: 18px;
+    }
+
+    #workplace .workplace-item .icon span svg:nth-child(2) {
+        margin-top: -7px;
+    }
+
+    #workplace .workplace-item .icon span::after {
+        width: 60px;
+        height: 40px;
+        border-radius: 10px;
+        bottom: -7px;
+        z-index: -1;
+    }
+
+    #workplace .workplace-item h4 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+
+    #workplace .workplace-item h3 {
+        font-size: 26px;
+        line-height: 32px;
+        padding-bottom: 30px;
+    }
+
+    #workplace .workplace-item p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 50px;
+        padding-right: 14px;
+    }
+
+    #workplace .workplace-item a {
+        line-height: 22px;
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    #workplace .workplace-img {
+        padding-top: 140px;
+        padding-left: 0px;
+    }
+
+    #workplace .work-banner::after {
+        top: 22px;
+        left: -33%;
+    }
+
+    /* ------workplace part responsive end ------ */
+
+
+    /* ------experience part responsive start ------ */
+
+    #experience {
+        padding: 80px 20px 0px;
+    }
+
+    #experience .exp-text {
+        padding-top: 180px;
+    }
+
+    #experience .exp-text h4 {
+        line-height: 24px;
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+
+
+    #experience .exp-text h2 {
+        font-size: 30px;
+        line-height: 38px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    #experience .exp-text a {
+        line-height: 24px;
+        font-size: 16px;
+        padding: 10px 35px;
+        margin-bottom: 50px;
+    }
+
+    #experience .exp-item .row {
+        gap: 20px;
+    }
+
+    #experience .exp-back::before {
+        width: 24%;
+        height: 59%;
+        top: 0%;
+        right: -9%;
+        z-index: -2;
+    }
+
+    #experience .exp-back::after {
+        z-index: -2;
+        top: 0%;
+        width: 37%;
+    }
+
+    #experience .exp-item .row .interface-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .interface-item .icon {
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 55px;
+        margin: 0 0 30px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .interface-item .icon img {
+        width: 100%;
+    }
+
+    #experience .exp-item .row .interface-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 25px;
+        left: -12px;
+    }
+
+    #experience .exp-item .row .interface-item h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    #experience .exp-item .row .interface-item p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .creative-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .creative-item .icon {
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 55px;
+        margin: 0 0 30px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .creative-item .icon img {
+        width: 100%;
+    }
+
+    #experience .exp-item .row .creative-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 25px;
+        left: -12px;
+    }
+
+    #experience .exp-item .row .creative-item h3 {
+        font-size: 19px;
+        padding-bottom: 30px;
+    }
+
+    #experience .exp-item .row .creative-item p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+
+
+    #experience .exp-item .row .business-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .business-item .icon {
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 55px;
+        margin: 0 0 30px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .business-item .icon img {
+        width: 100%;
+    }
+
+    #experience .exp-item .row .business-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 25px;
+        left: -12px;
+    }
+
+    #experience .exp-item .row .business-item h3 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    #experience .exp-item .row .business-item p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .develop-item p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .develop-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .develop-item .icon {
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 55px;
+        margin: 0 0 30px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .develop-item .icon img {
+        width: 100%;
+    }
+
+    #experience .exp-item .row .develop-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 25px;
+        left: -12px;
+    }
+
+    #experience .exp-item .row .develop-item h3 {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    #experience .exp-item .row .develop-item p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+
+    #experience .team {
+        padding-top: 60px;
+        text-align: center;
+    }
+/* 
+    #experience .team .box {
+        height: 195px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #experience .team .box-2 {
+        height: 195px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #experience .team .box-3 {
+        height: 195px;
+        width: 200px;
+        margin: 0 auto;
+    } */
+
+    #experience .team h3 {
+        padding: 30px 0px 5px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #experience .team h3 span {
+        padding-top: 0px;
+    }
+
+    #experience .exp-item .row .interface-item::after {
+        left: 55px;
+    }
+
+    #experience .exp-item .row .creative-item::after {
+        left: 55px;
+    }
+
+    #experience .exp-item .row .develop-item::after {
+        left: 55px;
+    }
+
+    #experience .exp-item .row .business-item::after {
+        left: 55px;
+    }
+
+    /* ------experience part responsive end ------ */
+
+    /* ------agency part responsive start ------ */
+    #agency {
+        padding: 80px 20px 50px;
+        background-position: top;
+        background-size: contain;
+    }
+
+    #agency h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+
+
+    #agency .agency-item {
+        background: #f1e8ff;
+        height: 200px;
+        border-radius: 10px;
+        margin-bottom: 0px;
+    }
+
+
+    #agency .row:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    #agency .row:nth-child(2) .col-sm-6 {
+        width: 48%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #agency .row:nth-child(2) .col-lg-4:last-child {
+        display: inline-block;
+    }
+
+    #agency .agency-btn {
+        padding: 50px 0px 0px;
+    }
+
+    #agency .agency-btn a {
+        line-height: 22px;
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    /* ------agency part responsive end ------ */
+
+    /* ------testimonial part responsive start ------ */
+    #testimonial {
+        padding: 40px 0px 0px;
+    }
+
+    #testimonial .slider::after {
+        width: 100%;
+        height: 213%;
+        background-size: contain;
+        top: -73px;
+        left: -72px;
+    }
+
+    #testimonial .testimonial-header {
+        padding-bottom: 10px;
+    }
+
+    #testimonial .testimonial-header h2 span {
+        font-size: 14px;
+        padding: 20px 0px 15px;
+    }
+
+    #testimonial .testimonial-header h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    #testimonial .item-slider .item p {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0px 140px 50px 80px;
+    }
+
+    #testimonial::after {
+        width: 100%;
+        top: 85px;
+        left: 55%;
+        height: 34%;
+        background-size: contain;
+    }
+
+    #testimonial .item-slider .item {
+        padding: 50px 0px 50px;
+    }
+
+    #testimonial .item-slider .item p::after {
+        top: -20px;
+        background-size: contain;
+        height: 85%;
+    }
+
+    #testimonial .item-slider .item h3 {
+        font-size: 16px;
+    }
+
+    #testimonial .item-slider {
+        width: 90%;
+    }
+
+    #testimonial .item-slider .item h3 span {
+        padding-top: 6px;
+    }
+
+    #testimonial .nextArrow {
+        bottom: -110px;
+        height: 55px;
+        width: 55px;
+        left: 54%;
+    }
+
+    #testimonial .nextArrow span::after {
+        width: 27px;
+        top: 30px;
+        left: 7px;
+    }
+
+    #testimonial .nextArrow span::before {
+        width: 9px;
+        height: 13px;
+        top: 24px;
+        left: 36px;
+    }
+
+    #testimonial .prevArrow {
+        bottom: -110px;
+        height: 55px;
+        width: 55px;
+        left: 45%;
+    }
+
+    #testimonial .prevArrow span::after {
+        width: 30px;
+        top: 30px;
+        left: 13px;
+    }
+
+    #testimonial .prevArrow span::before {
+        width: 9px;
+        height: 15px;
+        top: 23px;
+        right: 23px;
+    }
+
+    #testimonial .blog {
+        padding-top: 160px;
+    }
+
+    #testimonial .blog .col-sm-6:last-child {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    #testimonial .blog .blog-item {
+        padding-bottom: 50px;
+    }
+
+    #testimonial .blog h2 {
+        font-size: 30px;
+        padding-bottom: 28px;
+    }
+
+    #testimonial .blog .blog-item .blog-box {
+        width: 90%;
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    #testimonial .blog .blog-item .blog-box h3 {
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 190px 0px 0px 20px;
+        text-align: center;
+    }
+
+    #testimonial .blog .blog-item .blog-box h3 span {
+        font-size: 14px;
+    }
+
+    #testimonial .blog .blog-item .blog-text h4 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+
+    #testimonial .blog .blog-item .blog-text {
+        padding: 30px 0px 30px 25px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #testimonial .blog .blog-item .blog-text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px;
+    }
+
+    /* ------testimonial part responsive end ------ */
+
+
+    /* ------footer part responsive start ------ */
+    #footer {
+        padding: 50px 20px 20px;
+    }
+
+    #footer .logo h2 {
+        font-size: 35px;
+    }
+
+    #footer .logo p {
+        padding-top: 15px;
+        font-size: 15px;
+        padding-right: 30px;
+    }
+
+    #footer .logo ul {
+        padding: 10px 0 25px;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+
+    #footer .logo ul li {
+        font-size: 13px;
+    }
+
+    #footer .logo .icon {
+        justify-content: flex-start;
+    }
+
+    #footer .logo .icon span {
+        height: 35px;
+        width: 35px;
+    }
+
+    #footer .logo .icon span svg {
+        font-size: 15px;
+    }
+
+
+    #footer .information h3 {
+        font-size: 18px;
+        padding: 0 0 26px;
+    }
+
+    #footer .information p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 18px;
+    }
+
+    #footer .information a {
+        font-size: 15px;
+        display: block;
+        line-height: 20px;
+        padding-bottom: 30px;
+    }
+
+    #footer .information a:last-child {
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+
+    #footer .about h3 {
+        font-size: 18px;
+        padding: 0px 0 26px;
+    }
+
+    #footer .about ul li {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+
+    #footer .stay h3 {
+        font-size: 18px;
+        padding: 0px 0 25px;
+    }
+
+    #footer .stay p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0px 0px 15px;
+    }
+
+    #footer .stay .email p {
+        padding: 5px 10px;
+    }
+
+    #footer .stay .email {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #footer .stay .email p span {
+        padding-left: 15px;
+    }
+
+    #footer .store {
+        padding-top: 50px;
+        gap: 20px;
+    }
+
+    #footer .store a {
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+
+    #footer .store a span {
+        padding-right: 12px;
+        font-size: 20px;
+    }
+
+    #footer .copyright {
+        padding-top: 30px;
+        font-size: 15px;
+    }
+
+    /* ------footer part responsive end ------ */
+
+}
+
+/* ======================== Small devices start =================== */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* -----Navbar part responsive start ------ */
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 40px;
+    }
+
+    .navbar .navbar-toggler-icon svg {
+        color: #ffffff;
+        z-index: 99;
+        font-size: 20px;
+    }
+
+    .navbar .navbar-nav {
+        padding: 20px 40px;
+        text-align: right;
+        background: #8f49f9;
+        width: 40vh;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        transition: all linear 0.3s;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+    }
+
+    .navbar .nav-item-2 {
+        padding-left: 0px;
+        gap: 15px;
+        width: 50%;
+        margin: 20px 50px 0px;
+    }
+
+    .navbar .nav-item-2 img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .navbar .nav-item-2 p {
+        font-size: 10px;
+        height: 14px;
+        width: 14px;
+        top: -2px;
+        padding: 0;
+        left: 15px;
+        text-align: center;
+    }
+
+    .navbar .nav-item-2 span svg {
+        font-size: 20px;
+    }
+
+    /* -----Navbar part responsive end ------ */
+
+    /* ------Banner part responsive start ------ */
+
+
+    #banner {
+        padding: 50px 0px 100px;
+    }
+
+    #banner .banner-text {
+        padding: 100px 0px 0px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0px 20px 0px;
+    }
+
+    #banner .banner-text p {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 30px 68px 50px 20px;
+    }
+
+    #banner .banner-text a {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 14px 20px;
+        margin-left: 20px;
+    }
+
+    #banner .banner-img {
+        margin-top: 40px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #banner .banner-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ------Banner part responsive end ------ */
+
+    /* ------Archive part responsive start ------ */
+
+
+    #archive {
+        padding: 80px 0px 50px;
+    }
+
+    #archive .archive-item {
+        max-width: 73%;
+        max-height: 42%;
+        gap: 15px;
+        margin: 60px 0px 0px 20px;
+        background-size: contain;
+    }
+
+    #archive .archive-item::after {
+        left: -46px;
+        width: 165%;
+        height: 172%;
+        background-size: contain;
+        top: -65px;
+    }
+
+    #archive .archive-item .item-1 .customer {
+        max-height: 120px;
+        max-width: 120px;
+        padding: 32px 0px;
+    }
+
+    #archive .archive-item .item-1 .customer h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #archive .archive-item .item-1 .customer span {
+        font-size: 34px;
+        line-height: 36px;
+        padding-left: 0px;
+    }
+
+    #archive .archive-item .item-1 .customer h3 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-left: -5px;
+    }
+
+    #archive .archive-item .item-1 .invest {
+        max-height: 120px;
+        max-width: 120px;
+        margin-top: 20px;
+        padding: 40px 0px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 span {
+        font-size: 34px;
+        line-height: 38px;
+        margin: 0 -4px;
+    }
+
+    #archive .archive-item .item-2 {
+        padding-top: 50px;
+    }
+
+    #archive .archive-item .item-2 .client {
+        max-height: 120px;
+        max-width: 120px;
+        padding: 40px 0px;
+    }
+
+    #archive .archive-item .item-2 .client h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #archive .archive-item .item-2 .client h2 p span {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    #archive .archive-item .item-2 .client h2 p span:nth-child(2) {
+        font-size: 22px;
+        margin-left: -5px;
+    }
+
+
+    #archive .archive-item .item-2 .project {
+        max-height: 120px;
+        max-width: 120px;
+        padding: 40px 0px;
+        margin-top: 20px;
+    }
+
+    #archive .archive-item .item-2 .project h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #archive .archive-item .item-2 .project h2 p span {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    #archive .archive-item .item-2 .project h2 p span:nth-child(2) {
+        font-size: 16px;
+        margin-left: -5px;
+    }
+
+
+    #archive .archive-info h4 {
+        padding-left: 0px;
+        font-size: 14px;
+        padding-bottom: 21px;
+    }
+
+    #archive .archive-info h3 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-right: 0px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    #archive .archive-info p {
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0px 18px 30px 0px;
+    }
+
+    #archive .archive-info .collab {
+        padding: 0px;
+    }
+
+    #archive .archive-info .collab p {
+        line-height: 15px;
+        font-size: 12px;
+        padding: 0px 0px 30px;
+    }
+
+    #archive .archive-info a {
+        line-height: 17px;
+        font-size: 14px;
+        padding: 10px 22px;
+    }
+
+    /* ------Archive part responsive end ------ */
+
+    /* ------services part responsive start ------ */
+
+    #services {
+        padding: 0 20px 50px;
+    }
+
+    #services .fantasy h2 {
+        font-size: 23px;
+        line-height: 28px;
+        padding-bottom: 20px;
+        padding-right: 100px;
+    }
+
+    #services .fantasy a {
+        line-height: 17px;
+        font-size: 14px;
+        padding: 12px 19px;
+        margin: 10px 0px 0px -8px;
+    }
+
+    #services .row:nth-child(2) {
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+    }
+
+
+    #services .fantasy {
+        padding-bottom: 50px;
+    }
+
+    #services .facility-item {
+        padding: 15px 13px 45px 25px;
+        width: 47%;
+    }
+
+    #services .facility-item::after {
+        left: 30px;
+    }
+
+    #services .facility-item .icon {
+        padding: 10px 5px;
+        border-radius: 10px;
+        max-width: 45px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .facility-item .icon img {
+        width: 80%;
+    }
+
+    #services .facility-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 17px;
+        left: -15px;
+    }
+
+    #services .facility-item h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #services .facility-item p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #services .facility-item ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #services .facility-item ul li span {
+        padding: 0px 4px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    #services .pixel-item {
+        padding: 15px 13px 45px 25px;
+        width: 47%;
+    }
+
+    #services .pixel-item::after {
+        left: 30px;
+    }
+
+    #services .pixel-item .icon {
+        padding: 10px 5px;
+        border-radius: 10px;
+        max-width: 45px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .pixel-item .icon img {
+        width: 80%;
+    }
+
+    #services .pixel-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 17px;
+        left: -15px;
+    }
+
+    #services .pixel-item h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #services .pixel-item p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #services .pixel-item ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #services .pixel-item ul li span {
+        padding: 0px 4px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
+    #services .creative-item {
+        padding: 15px 13px 45px 25px;
+        width: 47%;
+    }
+
+    #services .creative-item::after {
+        left: 30px;
+    }
+
+    #services .creative-item .icon {
+        padding: 10px 5px;
+        border-radius: 10px;
+        max-width: 45px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .creative-item .icon img {
+        width: 80%;
+    }
+
+    #services .creative-item .icon::after {
+        width: 50px;
+        height: 50px;
+        top: 17px;
+        left: -15px;
+    }
+
+    #services .creative-item h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #services .creative-item p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #services .creative-item ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #services .creative-item ul li span {
+        padding: 0px 4px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
+    /* ------services part responsive end ------ */
+
+    /* ------workplace part responsive start ------ */
+
+    #workplace {
+        padding: 0px 20px;
+    }
+
+    #workplace .workplace-item .icon span {
+        width: 40px;
+        height: 40px;
+    }
+
+    #workplace .workplace-item .icon span svg {
+        font-size: 14px;
+    }
+
+    #workplace .workplace-item .icon span svg:nth-child(2) {
+        margin-top: -7px;
+    }
+
+    #workplace .workplace-item .icon span::after {
+        width: 37px;
+        height: 37px;
+        border-radius: 10px;
+        bottom: -7px;
+        z-index: -1;
+    }
+
+    #workplace .workplace-item h4 {
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    #workplace .workplace-item h3 {
+        font-size: 19px;
+        line-height: 26px;
+        padding-bottom: 20px;
+    }
+
+    #workplace .workplace-item p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 50px;
+        padding-right: 14px;
+    }
+
+    #workplace .workplace-item a {
+        line-height: 18px;
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    #workplace .workplace-img {
+        padding-top: 140px;
+        padding-left: 0px;
+    }
+
+    #workplace .work-banner::after {
+        top: 22px;
+        left: -36%;
+    }
+
+    /* ------workplace part responsive end ------ */
+
+    /* ------experience part responsive start ------ */
+
+    #experience {
+        padding: 20px;
+    }
+
+    #experience .exp-text {
+        padding-top: 80px;
+    }
+
+    #experience .exp-text h4 {
+        line-height: 18px;
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+
+
+    #experience .exp-text h2 {
+        font-size: 23px;
+        line-height: 28px;
+        padding-bottom: 30px;
+    }
+
+    #experience .exp-text a {
+        line-height: 18px;
+        font-size: 14px;
+        padding: 10px 22px;
+        margin-bottom: 50px;
+    }
+
+    #experience .exp-item .row {
+        gap: 20px;
+    }
+
+
+    #experience .exp-back {
+        overflow: hidden;
+    }
+
+    #experience .exp-back::before {
+        width: 24%;
+        height: 59%;
+        top: 16%;
+        right: -1%;
+        z-index: -2;
+    }
+
+    #experience .exp-back::after {
+        z-index: -2;
+        top: 18%;
+        width: 65%;
+    }
+
+    #experience .exp-item .row .interface-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+
+    #experience .exp-item .row .interface-item .icon {
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 45px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .interface-item .icon img {
+        width: 80%;
+    }
+
+    #experience .exp-item .row .interface-item .icon::after {
+        width: 40px;
+        height: 40px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .interface-item h3 {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .interface-item p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+
+    #experience .exp-item .row .creative-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .creative-item .icon {
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 45px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .creative-item .icon img {
+        width: 80%;
+    }
+
+    #experience .exp-item .row .creative-item .icon::after {
+        width: 40px;
+        height: 40px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .creative-item h3 {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .creative-item p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .business-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .business-item .icon {
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 45px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .business-item .icon img {
+        width: 80%;
+    }
+
+    #experience .exp-item .row .business-item .icon::after {
+        width: 40px;
+        height: 40px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .business-item h3 {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .business-item p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .develop-item {
+        padding: 15px 15px 45px 25px;
+        width: 47%;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .develop-item .icon {
+        padding: 10px;
+        border-radius: 8px;
+        max-width: 45px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .develop-item .icon img {
+        width: 80%;
+    }
+
+    #experience .exp-item .row .develop-item .icon::after {
+        width: 40px;
+        height: 40px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .develop-item h3 {
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .develop-item p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+
+
+    #experience .team {
+        padding-top: 60px;
+    }
+/* 
+    #experience .team .box {
+        height: 165px;
+        width: 170px;
+        margin: 0 auto;
+    }
+
+    #experience .team .box-2 {
+        height: 165px;
+        width: 170px;
+        margin: 0 auto;
+    }
+
+    #experience .team .box-3 {
+        height: 165px;
+        width: 170px;
+        margin: 0 auto;
+    } */
+
+    #experience .team h3 {
+        padding: 30px 0px;
+        line-height: 7px;
+        font-size: 13px;
+    }
+
+    /* ------experience part responsive end ------ */
+
+    /* ------agency part responsive start ------ */
+    #agency {
+        padding: 30px 20px 30px;
+        background-position: top;
+        background-size: contain;
+    }
+
+    #agency h2 {
+        font-size: 23px;
+        line-height: 38px;
+        padding-bottom: 30px;
+    }
+
+
+    #agency .agency-item {
+        background: #f1e8ff;
+        height: 150px;
+        border-radius: 10px;
+        margin-bottom: 0px;
+    }
+
+
+    #agency .row:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    #agency .row:nth-child(2) .col-sm-6 {
+        width: 48%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #agency .row:nth-child(2) .col-lg-4:last-child {
+        display: inline-block;
+    }
+
+    #agency .agency-btn {
+        padding: 50px 0px 0px;
+    }
+
+    #agency .agency-btn a {
+        line-height: 18px;
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    /* ------agency part responsive end ------ */
+
+    /* ------testimonial part responsive start ------ */
+    #testimonial {
+        padding: 40px 0px 0px;
+    }
+
+    #testimonial .slider::after {
+        width: 100%;
+        height: 191%;
+        background-size: contain;
+        top: -53px;
+        left: -79px;
+    }
+
+    #testimonial .testimonial-header {
+        padding-bottom: 30px;
+    }
+
+    #testimonial .testimonial-header h2 span {
+        font-size: 13px;
+        padding: 20px 0px 15px;
+    }
+
+    #testimonial .testimonial-header h2 {
+        font-size: 23px;
+    }
+
+    #testimonial .item-slider .item p {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 0px 50px 50px 50px;
+    }
+
+    #testimonial::after {
+        width: 103%;
+        top: 85px;
+        left: 46%;
+        height: 31%;
+        background-size: contain;
+    }
+
+    #testimonial .item-slider .item {
+        padding: 50px 0px 50px;
+    }
+
+    #testimonial .item-slider .item p::after {
+        top: -20px;
+        background-size: contain;
+        height: 85%;
+    }
+
+    #testimonial .item-slider .item h3 {
+        font-size: 14px;
+    }
+
+    #testimonial .item-slider {
+        width: 90%;
+    }
+
+    #testimonial .item-slider .item h3 span {
+        padding-top: 6px;
+    }
+
+    #testimonial .nextArrow {
+        bottom: -100px;
+        height: 45px;
+        width: 45px;
+        left: 53%;
+    }
+
+    #testimonial .nextArrow span::after {
+        width: 25px;
+        top: 24px;
+        left: 8px;
+    }
+
+    #testimonial .nextArrow span::before {
+        width: 7px;
+        height: 13px;
+        top: 18px;
+        left: 32px;
+    }
+
+    #testimonial .prevArrow {
+        bottom: -100px;
+        height: 45px;
+        width: 45px;
+        left: 44%;
+    }
+
+    #testimonial .prevArrow span::after {
+        width: 25px;
+        top: 24px;
+        left: 8px;
+    }
+
+    #testimonial .prevArrow span::before {
+        width: 7px;
+        height: 13px;
+        top: 18px;
+        right: 23px;
+    }
+
+    #testimonial .blog {
+        padding-top: 130px;
+    }
+
+    #testimonial .blog .col-sm-6:last-child {
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+
+    #testimonial .blog .blog-item {
+        padding-bottom: 50px;
+    }
+
+    #testimonial .blog h2 {
+        font-size: 23px;
+        padding-bottom: 28px;
+    }
+
+    #testimonial .blog .blog-item .blog-box {
+        width: 95%;
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    #testimonial .blog .blog-item .blog-box h3 {
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 7px;
+        margin: 190px 0px 0px 20px;
+        text-align: center;
+    }
+
+    #testimonial .blog .blog-item .blog-box h3 span {
+        font-size: 13px;
+    }
+
+    #testimonial .blog .blog-item .blog-text h4 {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+
+    #testimonial .blog .blog-item .blog-text {
+        padding: 30px 0px 30px 25px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #testimonial .blog .blog-item .blog-text p {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 0px;
+    }
+
+    /* ------testimonial part responsive end ------ */
+
+    /* ------footer part responsive start ------ */
+    #footer {
+        padding: 50px 20px 20px;
+    }
+
+    #footer .logo h2 {
+        font-size: 35px;
+    }
+
+    #footer .logo p {
+        padding-top: 15px;
+        font-size: 13px;
+    }
+
+    #footer .logo ul {
+        padding: 5px 0 25px;
+        justify-content: flex-start;
+    }
+
+    #footer .logo ul li {
+        font-size: 13px;
+    }
+
+    #footer .logo .icon {
+        justify-content: flex-start;
+    }
+
+    #footer .logo .icon span {
+        height: 25px;
+        width: 25px;
+    }
+
+    #footer .logo .icon span svg {
+        font-size: 13px;
+    }
+
+
+    #footer .information h3 {
+        font-size: 15px;
+        padding: 5px 0 20px;
+    }
+
+    #footer .information p {
+        font-size: 13px;
+        line-height: 16px;
+        padding-bottom: 5px;
+    }
+
+    #footer .information a {
+        font-size: 13px;
+        display: block;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    #footer .information a:last-child {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+
+    #footer .about h3 {
+        font-size: 15px;
+        padding: 30px 0 20px;
+    }
+
+    #footer .about ul li {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+
+
+    #footer .stay h3 {
+        font-size: 15px;
+        padding: 30px 0 20px;
+    }
+
+    #footer .stay p {
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0px 0px 30px;
+    }
+
+    #footer .stay .email p {
+        padding: 10px 0px 10px 15px;
+    }
+
+    #footer .stay .email {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #footer .stay .email p span {
+        padding-left: 100px;
+    }
+
+    #footer .store {
+        padding-top: 30px;
+        gap: 10px;
+    }
+
+    #footer .store a {
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 13px;
+    }
+
+
+    #footer .store a span {
+        padding-right: 12px;
+        font-size: 15px;
+    }
+
+    #footer .copyright {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    /* ------footer part responsive end ------ */
+}
+
+/* ======================== X - Small devices start =================== */
+
+@media (max-width:575.98px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* ------------- Navbar responsive part start ----------- */
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+
+    .navbar .navbar-toggler-icon svg {
+        color: #ffffff;
+        z-index: 99;
+        font-size: 15px;
+    }
+
+    .navbar .navbar-nav {
+        padding: 20px 40px;
+        text-align: right;
+        background: #8f49f9;
+        width: 40vh;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        transition: all linear 0.3s;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+
+    .navbar .nav-item-2 {
+        padding-left: 0px;
+        gap: 15px;
+        width: 50%;
+        margin: 20px 50px 0px;
+    }
+
+    .navbar .nav-item-2 img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .navbar .nav-item-2 p {
+        font-size: 10px;
+        height: 14px;
+        width: 14px;
+        top: -2px;
+        padding: 0;
+        left: 15px;
+        text-align: center;
+    }
+
+    .navbar .nav-item-2 span svg {
+        font-size: 20px;
+    }
+
+    /* ------------- Navbar responsive part end ----------- */
+
+
+    /* ------------- Banner responsive part start ----------- */
+
+    #banner {
+        padding: 0px 0px 50px;
+        overflow-x: hidden !important;
+    }
+
+    #banner .banner-text {
+        padding: 100px 0px 0px;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 22px;
+        line-height: 28px;
+        padding: 0px 20px 0px;
+    }
+
+    #banner .banner-text p {
+        font-size: 10px;
+        line-height: 16px;
+        padding: 20px 20px 30px;
+    }
+
+    #banner .banner-text a {
+        font-size: 10px;
+        line-height: 18px;
+        padding: 10px 20px;
+        margin-left: 20px;
+    }
+
+    #banner .banner-img {
+        margin-top: 40px;
+        width: 100%;
+        height: 80%;
+    }
+
+    #banner .banner-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ------------- Banner responsive part end ----------- */
+
+
+    /* ------------- Archive responsive part start ----------- */
+
+
+    #archive {
+        padding: 80px 0px 50px;
+        overflow-x: hidden !important;
+    }
+
+    #archive .archive-item {
+        max-width: 75%;
+        max-height: 65%;
+        gap: 15px;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    #archive .archive-item::after {
+        left: 9px;
+        width: 78%;
+        height: 118%;
+        background-size: cover;
+        top: -23px;
+    }
+
+    #archive .archive-item .item-1 .customer {
+        max-height: 100px;
+        max-width: 100px;
+        padding: 30px 0px;
+    }
+
+
+    #archive .archive-item .item-1 .customer h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #archive .archive-item .item-1 .customer span {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 0px;
+    }
+
+    #archive .archive-item .item-1 .customer h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+
+    #archive .archive-item .item-1 .invest {
+        max-height: 100px;
+        max-width: 100px;
+        margin-top: 20px;
+        padding: 30px 0px;
+    }
+
+
+    #archive .archive-item .item-1 .invest h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    #archive .archive-item .item-1 .invest h2 span {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0px;
+    }
+
+    #archive .archive-item .item-2 {
+        padding-top: 50px;
+    }
+
+    #archive .archive-item .item-2 .client {
+        max-height: 100px;
+        max-width: 100px;
+        padding: 30px 0px;
+    }
+
+
+    #archive .archive-item .item-2 .client h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #archive .archive-item .item-2 .client h2 p span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #archive .archive-item .item-2 .client h2 p span:nth-child(2) {
+        font-size: 14px;
+        margin-left: -5px;
+    }
+
+    #archive .archive-item .item-2 .project {
+        max-height: 100px;
+        max-width: 100px;
+        padding: 30px 0px;
+        margin-top: 20px;
+    }
+
+
+    #archive .archive-item .item-2 .project h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #archive .archive-item .item-2 .project h2 p span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #archive .archive-item .item-2 .project h2 p span:nth-child(2) {
+        font-size: 14px;
+        margin-left: -5px;
+    }
+
+    #archive .archive-info h4 {
+        padding-left: 20px;
+        font-size: 12px;
+        padding-bottom: 21px;
+    }
+
+    #archive .archive-info h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-right: 0px;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    #archive .archive-info p {
+        font-family: "Niramit", sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0 25px 30px;
+    }
+
+    #archive .archive-info .collab {
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    #archive .archive-info .collab p {
+        line-height: 15px;
+        font-size: 10px;
+        padding: 0px 0px 30px;
+    }
+
+    #archive .archive-info a {
+        line-height: 16px;
+        font-size: 12px;
+        padding: 8px 18px;
+        margin-left: 20px;
+    }
+
+    /* ------------- Archive responsive part end ----------- */
+
+
+    /* ------------- services responsive part start ----------- */
+
+    #services {
+        padding: 0 20px 50px;
+        overflow-x: hidden !important;
+    }
+
+    #services .fantasy h2 {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+    }
+
+    #services .fantasy a {
+        line-height: 16px;
+        font-size: 12px;
+        padding: 8px 18px;
+        margin-left: 170px;
+    }
+
+    #services .fantasy {
+        padding-bottom: 40px;
+    }
+
+    #services .facility-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        margin: 0 auto;
+    }
+
+    #services .facility-item::after {
+        left: 30px;
+    }
+
+    #services .facility-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .facility-item .icon img {
+        width: 70%;
+    }
+
+    #services .facility-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #services .facility-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #services .facility-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #services .facility-item ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #services .facility-item ul li span {
+        padding: 0px 3px;
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+
+    #services .pixel-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        margin: 0 auto;
+    }
+
+    #services .pixel-item::after {
+        left: 30px;
+    }
+
+    #services .pixel-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .pixel-item .icon img {
+        width: 70%;
+    }
+
+    #services .pixel-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #services .pixel-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #services .pixel-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #services .pixel-item ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #services .pixel-item ul li span {
+        padding: 0px 3px;
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    #services .creative-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        margin: 0 auto;
+    }
+
+    #services .creative-item::after {
+        left: 30px;
+    }
+
+    #services .creative-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #services .creative-item .icon img {
+        width: 70%;
+    }
+
+    #services .creative-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #services .creative-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #services .creative-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #services .creative-item ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #services .creative-item ul li span {
+        padding: 0px 3px;
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    /* ------------- services responsive part end ----------- */
+
+    /* ------------- workplace responsive part start ----------- */
+
+    #workplace {
+        padding-bottom: 164px;
+        overflow-x: hidden !important;
+    }
+
+    #workplace {
+        padding: 0px 20px;
+    }
+
+    #workplace .workplace-item .icon span {
+        width: 40px;
+        height: 40px;
+    }
+
+    #workplace .workplace-item .icon span svg {
+        font-size: 14px;
+    }
+
+    #workplace .workplace-item .icon span svg:nth-child(2) {
+        margin-top: -7px;
+    }
+
+    #workplace .workplace-item .icon span::after {
+        width: 37px;
+        height: 37px;
+        border-radius: 10px;
+        bottom: -7px;
+        z-index: -1;
+    }
+
+    #workplace .workplace-item h4 {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    #workplace .workplace-item h3 {
+        font-size: 21px;
+        line-height: 26px;
+        padding-bottom: 20px;
+    }
+
+    #workplace .workplace-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 30px;
+    }
+
+    #workplace .workplace-item a {
+        line-height: 22px;
+        padding: 6px 18px;
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    #workplace .workplace-img {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+
+    #workplace .work-banner::after {
+        top: -20px;
+        left: -84%;
+    }
+
+    /* ------------- workplace responsive part end ----------- */
+
+    /* ------------- experience responsive part start ----------- */
+    #experience {
+        padding: 0 20px;
+        overflow-x: hidden !important;
+    }
+
+    #experience .exp-text {
+        padding-top: 50px;
+    }
+
+    #experience .exp-text h4 {
+        line-height: 20px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+
+    #experience .exp-text h2 {
+        font-size: 24px;
+        line-height: 35px;
+        padding-bottom: 30px;
+    }
+
+    #experience .exp-text a {
+        line-height: 16px;
+        font-size: 12px;
+        padding: 8px 18px;
+        margin-bottom: 50px;
+    }
+
+    #experience .exp-item .row .interface-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .interface-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .interface-item .icon img {
+        width: 70%;
+    }
+
+    #experience .exp-item .row .interface-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .interface-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .interface-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .interface-item::after {
+        left: 30px;
+    }
+
+    #experience .exp-item .row .creative-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .creative-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .creative-item .icon img {
+        width: 70%;
+    }
+
+    #experience .exp-item .row .creative-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .creative-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .creative-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .creative-item::after {
+        left: 30px;
+    }
+
+    #experience .exp-item .row .business-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .business-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .business-item .icon img {
+        width: 70%;
+    }
+
+    #experience .exp-item .row .business-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .business-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .business-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .business-item::after {
+        left: 30px;
+    }
+
+    #experience .exp-item .row .develop-item {
+        padding: 15px 15px 45px 25px;
+        width: 245px;
+        background: #ffffff;
+        z-index: 5;
+    }
+
+    #experience .exp-item .row .develop-item .icon {
+        padding: 5px;
+        border-radius: 8px;
+        max-width: 35px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    #experience .exp-item .row .develop-item .icon img {
+        width: 70%;
+    }
+
+    #experience .exp-item .row .develop-item .icon::after {
+        width: 30px;
+        height: 30px;
+        top: 17px;
+        left: -11px;
+    }
+
+    #experience .exp-item .row .develop-item h3 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #experience .exp-item .row .develop-item p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 25px;
+    }
+
+    #experience .exp-item .row .develop-item::after {
+        left: 30px;
+    }
+
+    #experience .team {
+        padding-top: 80px;
+    }
+
+    /* 
+    #experience .team .box {
+        height: 215px;
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    #experience .team .box-2 {
+        height: 215px;
+        width: 220px;
+        margin: 20px auto 0;
+    }
+
+    #experience .team .box-3 {
+        height: 215px;
+        width: 220px;
+        margin: 20px auto 0;
+    } */
+
+    #experience .team h3 {
+        padding: 30px 0px;
+        line-height: 7px;
+        font-size: 15px;
+    }
+
+
+    #experience .exp-back::after {
+        width: 30%;
+        height: 20%;
+        top: 4px;
+        left: -3%;
+        z-index: -1;
+    }
+
+    #experience .exp-back::before {
+        width: 40%;
+        height: 35%;
+        top: -1%;
+        right: -4%;
+        z-index: -1;
+    }
+
+    /* ------------- experience responsive part end ----------- */
+
+    /* ------------- agency responsive part start ----------- */
+    #agency {
+        padding: 40px 20px 70px;
+        background-position: top;
+        background-size: contain;
+        overflow-x: hidden !important;
+    }
+
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+
+    #agency h2 {
+        font-size: 26px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+
+    #agency .agency-item {
+        background: #f1e8ff;
+        height: 220px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    #agency .agency-btn a {
+        line-height: 22px;
+        padding: 6px 18px;
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    #agency .agency-btn {
+        padding: 0px;
+    }
+
+    /* ------------- agency responsive part end ----------- */
+
+    /* ------------- testimonial responsive part end ----------- */
+
+    #testimonial .testimonial-header {
+        padding-bottom: 30px;
+    }
+
+    #testimonial .slider::after {
+        content: "";
+        width: 144%;
+        height: 194%;
+        background: url(../images/testimonial-back-img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -44px;
+        left: -129px;
+        z-index: -2;
+    }
+
+    #testimonial .testimonial-header h2 span {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    #testimonial .testimonial-header h2 {
+        font-size: 22px;
+    }
+
+    #testimonial .item-slider .item p {
+        font-family: "Niramit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #282331;
+        line-height: 18px;
+        padding-bottom: 25px;
+        position: relative;
+        z-index: 2;
+    }
+
+    #testimonial .item-slider {
+        width: 85%;
+    }
+
+    #testimonial::after {
+        width: 140%;
+        top: 30px;
+        left: 21%;
+        height: 100%;
+        background-size: contain;
+    }
+
+    #testimonial .item-slider .item {
+        padding: 50px 0px 50px;
+    }
+
+    #testimonial .item-slider .item p::after {
+        top: -20px;
+        background-size: contain;
+    }
+
+    #testimonial .item-slider .item h3 {
+        font-size: 14px;
+    }
+
+    #testimonial .item-slider .item h3 span {
+        padding-top: 5px;
+    }
+
+    #testimonial .nextArrow {
+        bottom: -90px;
+        height: 37px;
+        width: 37px;
+        left: 55%;
+    }
+
+    #testimonial .nextArrow span::after {
+        width: 18px;
+        top: 20px;
+        left: 8px;
+    }
+
+    #testimonial .nextArrow span::before {
+        width: 7px;
+        height: 13px;
+        top: 14px;
+        left: 24px;
+    }
+
+    #testimonial .prevArrow {
+        bottom: -90px;
+        height: 37px;
+        width: 37px;
+        left: 43%;
+    }
+
+    #testimonial .prevArrow span::after {
+        width: 18px;
+        top: 20px;
+        left: 8px;
+    }
+
+    #testimonial .prevArrow span::before {
+        width: 7px;
+        height: 13px;
+        top: 14px;
+        right: 24px;
+    }
+
+    #testimonial .blog {
+        padding-top: 130px;
+    }
+
+    #testimonial .blog .blog-item {
+        padding-bottom: 50px;
+    }
+
+    #testimonial .blog h2 {
+        font-size: 25px;
+        padding-bottom: 28px;
+    }
+
+    #testimonial .blog .blog-item .blog-box {
+        width: 81%;
+        margin: 0 auto;
+        height: 220px;
+    }
+
+    #testimonial .blog .blog-item .blog-box h3 {
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 7px;
+        margin: 190px 0px 0px 20px;
+        text-align: center;
+    }
+
+    #testimonial .blog .blog-item .blog-box h3 span {
+        font-size: 12px;
+    }
+
+    #testimonial .blog .blog-item .blog-text h4 {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+
+    #testimonial .blog .blog-item .blog-text {
+        padding: 30px 0px 30px 25px;
+        width: 81%;
+        margin: 0 auto;
+    }
+
+    #testimonial .blog .blog-item .blog-text p {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 0px 10px;
+    }
+
+    /* ------------- testimonial responsive part end ----------- */
+
+    /* ------------- footer responsive part start ----------- */
+    #footer {
+        padding: 50px 20px 20px;
+        text-align: center;
+        overflow-x: hidden !important;
+    }
+
+    #footer .logo h2 {
+        font-size: 30px;
+    }
+
+    #footer .logo p {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+
+    #footer .logo ul {
+        padding: 5px 0 25px;
+        justify-content: center;
+    }
+
+    #footer .logo ul li {
+        font-size: 12px;
+    }
+
+    #footer .logo .icon {
+        justify-content: center;
+    }
+
+    #footer .logo .icon span {
+        height: 25px;
+        width: 25px;
+    }
+
+    #footer .logo .icon span svg {
+        font-size: 12px;
+    }
+
+
+    #footer .information h3 {
+        font-size: 15px;
+        padding: 30px 0 20px;
+    }
+
+    #footer .information p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 5px;
+    }
+
+    #footer .information a {
+        font-size: 13px;
+        display: block;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    #footer .information a:last-child {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+
+    #footer .about h3 {
+        font-size: 15px;
+        padding: 30px 0 20px;
+    }
+
+    #footer .about ul li {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+
+    #footer .stay h3 {
+        font-size: 15px;
+        padding: 30px 0 20px;
+    }
+
+    #footer .stay p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0px 10px 30px;
+    }
+
+    #footer .stay .email p {
+        padding: 10px 0px 10px 15px;
+    }
+
+    #footer .stay .email {
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #footer .stay .email p span {
+        padding-left: 100px;
+    }
+
+    #footer .store {
+        padding-top: 30px;
+        gap: 10px;
+    }
+
+    #footer .store a {
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 13px;
+    }
+
+
+    #footer .store a span {
+        padding-right: 12px;
+        font-size: 15px;
+    }
+
+    #footer .copyright {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    /* ------------- footer responsive part end ----------- */
+
+}
+
+
+/* ======================== Large devices start =================== */
+

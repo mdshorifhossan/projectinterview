@@ -1,0 +1,185 @@
+@import "../variable/variable";
+@import "../mixin/mixin";
+
+#experience {
+    background: url(../../images/exprience-banner.png);
+    // background-position: center;
+    background-repeat: no-repeat;
+
+    .exp-text {
+        padding-top: 218px;
+
+        h4 {
+            font-family: $font-niramit;
+            font-weight: 700;
+            line-height: 62px;
+            color: $color-8f49f9;
+            text-transform: uppercase;
+            padding-bottom: 24px;
+        }
+
+        h2 {
+            font-family: $font-niramit;
+            font-weight: 400;
+            color: $color-282331;
+            font-size: 52px;
+            line-height: 62px;
+            padding-bottom: 86px;
+        }
+
+        a {
+            @include all-com-btn;
+        }
+    }
+
+    .exp-item {
+        padding-bottom: 131px;
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            .interface-item {
+                @include exp-item;
+
+                &::after {
+                    @include exp-item-after;
+                    background: url(../images/interf-shape.png);
+                }
+
+                .icon {
+                    @include exp-icon;
+                    box-shadow: 0px 27px 18px 0px $color-inter;
+
+                    &::after {
+                        @include exp-icon-after;
+                        background: $color-ffe1f1;
+                        box-shadow: 0px 18px 27px 0px $color-35-cb;
+                    }
+                }
+
+                h3 {
+                    @include exp-icon-h3;
+                }
+
+                p {
+                    @include exp-icon-p;
+                }
+            }
+
+            .creative-item {
+                @include exp-item;
+
+                &::after {
+                    @include exp-item-after;
+                    background: url(../images/creat-shape.png);
+                }
+
+                .icon {
+                    @include exp-icon;
+                    box-shadow: 0px 27px 18px 0px $color-crea;
+
+                    &::after {
+                        @include exp-icon-after;
+                        background: $color-ffdffc;
+                        box-shadow: 0px 18px 27px 0px $color-35-cb;
+                    }
+                }
+
+                h3 {
+                    @include exp-icon-h3;
+                }
+
+                p {
+                    @include exp-icon-p;
+                }
+            }
+
+            .business-item {
+                @include exp-item;
+
+                &::after {
+                    @include exp-item-after;
+                    background: url(../images/busin-shape.png);
+                }
+
+                .icon {
+                    @include exp-icon;
+                    box-shadow: 0px 27px 18px 0px $color-buss;
+
+                    &::after {
+                        @include exp-icon-after;
+                        background: $color-e2fcf4;
+                        box-shadow: 0px 18px 27px 0px $color-35-cb;
+                    }
+                }
+
+                h3 {
+                    @include exp-icon-h3;
+                }
+
+                p {
+                    @include exp-icon-p;
+                }
+            }
+
+            .develop-item {
+                @include exp-item;
+
+                &::after {
+                    @include exp-item-after;
+                    background: url(../images/develop-shape.png);
+                }
+
+                .icon {
+                    @include exp-icon;
+                    box-shadow: 0px 27px 18px 0px $color-deve;
+
+                    &::after {
+                        @include exp-icon-after;
+                        background: $color-ddd9ff;
+                        box-shadow: 0px 18px 27px 0px $color-35-cb;
+                    }
+                }
+
+                h3 {
+                    @include exp-icon-h3;
+                }
+
+                p {
+                    @include exp-icon-p;
+                }
+            }
+        }
+    }
+
+    .team {
+        text-align: center;
+
+        .box {
+            @include exp-team;
+            background: $color-faffcf;
+        }
+
+        .box-2 {
+            background: $color-ffeedb;
+            @include exp-team;
+        }
+
+        .box-3 {
+            background: $color-ffdeda;
+            @include exp-team;
+        }
+
+        h3 {
+            @include exp-team-h3;
+
+            span {
+                @include exp-team-span;
+            }
+        }
+    }
+
+}
